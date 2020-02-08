@@ -5,7 +5,7 @@ const StudentList = (props) => {
     return (
         <tbody>
         {
-            props.students 
+            props.students
             .map(student =>
                 (
                     <tr key={student.id}>
